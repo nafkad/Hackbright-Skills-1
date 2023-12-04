@@ -4,13 +4,16 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-const faveColors = ["red", "green", "black"];
-console.log(???);
+// const faveColors = ["red", "green", "black"];
+console.log(faveColors); // print out all three items/colors in the array
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
+// const faveColors = ["red", "green", "black"];
+faveColors.push("yellow"); // adding/pushing a the color "yellow" to the back of the array
+console.log(faveColors); // ["red", "green", "black", "yello"]
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -21,6 +24,9 @@ console.log(???);
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
+// const numbers = [1, 2, 3, 4, 5]
+const numbersSubset = numbers.splice(1, 2, 3); // .slice() with a start and end index returns a subarray
+console.log(numbersSubset); // [2, 3, 4]  
 
 
 //////////////////PROBLEM 4////////////////////

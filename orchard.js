@@ -15,9 +15,9 @@
     is 2, meaning that 2 acres of Fuji apples were picked on Monday of this week.
 */
 
-const fujiAcres = [2, 3, 3, 2, 2, 2, 1]
-const galaAcres = [5, 2, 4, 3, 6, 2, 4]
-const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
+const fujiAcres = [2, 3, 3, 2, 2, 2, 1] // 0-Monday, 1-Tuesday, 2-Wednesday, 3-Thursday, 4-Friday, 5-Saturday, 6-Sunday
+const galaAcres = [5, 2, 4, 3, 6, 2, 4] // 0-Monday, 1-Tuesday, 2-Wednesday, 3-Thursday, 4-Friday, 5-Saturday, 6-Sunday
+const pinkAcres = [1, 5, 4, 2, 1, 5, 4] // 0-Monday, 1-Tuesday, 2-Wednesday, 3-Thursday, 4-Friday, 5-Saturday, 6-Sunday
 
 
 
@@ -34,9 +34,82 @@ const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
 */
 
 // CODE HERE
+// const fujiAcres = [2, 3, 3, 2, 2, 2, 1] 
+// 0-Monday, 1-Tuesday, 2-Wednesday, 3-Thursday, 4-Friday, 5-Saturday, 6-Sunday
+// array of numbers
 
+for (let i = 0; i < fujiAcres.length; i = i + 1) {
+  // Start condition wiht i = 0
+  // Stop condition with i < numFive.length Note: Length is last index number + 1.
+  // Increments. After each time trhogu the loop, increment i by 1 Note: Or increment by 2, 5, or another number.
+    
+  console.log(fujiAcres[i]); // Run the code for each element/number in the array each time through the loop throughout... 
+    //...the length of the array until you reach the end of the array.
+}
 
+//Total Acres
+let sum = 0 // The sum starts at 0.
+for (let i = 0; i < fujiAcres.length; i = i + 1) {
+    // Select each item in the fujiAcres array and add it to the sum variable.
+    sum = sum + fujiAcres[i];
+    // Loop 1: First sum starts at 0.
+    // Loop 2: 0 + 2 = 2
+    // Loop 3: 2 + 3 = 5
+    // Loop 4: 5 + 3 = 8
+    // Loop 5: 8 + 2 = 10
+    // Loop 6: 10 + 2 = 12
+    // Loop 7: 12 + 2 = 14
+    // Loop 8: 14 + 1 = 15
+}
+console.log(sum) // Sum of is 15.
 
+return sum 
+
+// const fujiAcres = [2, 3, 3, 2, 2, 2, 1] 
+// 0-Monday, 1-Tuesday, 2-Wednesday, 3-Thursday, 4-Friday, 5-Saturday, 6-Sunday
+// array of numbers
+
+// Listing out all the elements in the array for fujiAcres.
+for (let i = 0; i < fujiAcres.length; i = i + 1) {
+    // Start condition with i = 0
+    // Stop condition with i < numFive.length Note: Length is last index number + 1.
+    // Increments. After each time trhogu the loop, increment i by 1 Note: Or increment by 2, 5, or another number.
+      
+    console.log(fujiAcres[i]); // Run the code for each element/number in the array each time through the loop throughout... 
+      //...the length of the array until you reach the end of the array.
+  }
+  
+  // Solution 1:
+  // Total Acres
+  function totalAcress(fujiAcres) {
+    let sum = 0; // The sum starts at 0.
+    fujiAcres.forEach(item => {
+        sum = sum + item;
+    });
+
+    console.log(sum);
+    return sum;
+  }
+   
+
+  // Solution 2:
+  // Total Acres
+  for (let i = 0; i < fujiAcres.length; i = i + 1) {
+    // Select each item in the fujiAcres array and add it to the sum variable.
+    sum = sum + fujiAcres[i];
+    // Loop 1: First sum starts at 0.
+    // Loop 2: 0 + 2 = 2
+    // Loop 3: 2 + 3 = 5
+    // Loop 4: 5 + 3 = 8
+    // Loop 5: 8 + 2 = 10
+    // Loop 6: 10 + 2 = 12
+    // Loop 7: 12 + 2 = 14
+    // Loop 8: 14 + 1 = 15
+}
+return sum {
+    
+}
+console.log(totalAcres([2, 3, 3, 2, 2, 2, 1])) // Sum  is 15.
 
 
 // PROBLEM 2
@@ -51,7 +124,7 @@ const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
 */
 
 // CODE HERE
-
+averageDailyAcres = 
 
 
 
@@ -82,7 +155,7 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
-
+acresLeft = 
 
 
 // PROBLEM 4

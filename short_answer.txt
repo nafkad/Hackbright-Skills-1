@@ -1,13 +1,13 @@
 1) What does the `rm` command in the terminal do?
 
-Your answer:
+Your answer: The "rm" command is to remove a file in the terminal.
 
 
 ------------------
 2) What terminal command would you use to list all the files and folder in the 
    current directory?
 
-Your answer:
+Your answer: I would use the terminal command "ls" to list all of the files and folder in the current directory.
 
 
 ------------------
@@ -16,19 +16,20 @@ Your answer:
    $ cd Users
    $ cd /Users
 
-Your answer:
+Your answer: The command "cd Users" is to go into the next (child) folder called "Users" from the current parent folder.
+The command "cd /Users" is to leap into the folder called "Users" from any folder no matter how near or far you from that folder in the chain of folders.
 
 
 ------------------
 4) Describe what git is and what it is used for.
 
-Your answer:
+Your answer: "Git" is a DevOps tools that is used to track chagnes in any set of computer files,
 
 
 ------------------
 5) Describe what GitHub is and what it is used for.
 
-Your answer:
+Your answer: "GitHub" is a code hosting platform and cloud-based service for software development and verion control, and it allows developers to store and manage their code their.
 
 
 ------------------
@@ -38,7 +39,7 @@ Your answer:
     c) git init
     d) git status
 
-Your answer:
+Your answer: (c) - git init
 
 ------------------
 7) You want to check that you have properly added all the files you want to be
@@ -48,24 +49,27 @@ Your answer:
      c) git status
      d) git remote
 
-Your answer:
+Your answer: (b) - git status
 
 
 ------------------
 8) What is the difference between `git add` and `git commit`?
 
-Your answer:
+Your answer: "git add" will track the file(s) of your choice; it adds a new or changed file in the working directory to the Git staging area. 
+Whereas, "git commit -a -m" will add the file(s) of your choice with a comment; it captures a snapshot of the new or changed files in the woring directory to the local repository. 
 
 
 ------------------
 9) What does the `git push` command do?
 
-Your answer:
+Your answer: "git push" is used to upload local repository content to a remote repository; for example, it will push the file(s) from Git to GitHub. 
+It will push an udpated or changed file into the remote repository upon command; this command comes after "git commit".
 
 
 ------------------
 10) When would you use the `git clone` command?
 
-Your answer:
+Your answer: You would use the command "git clone" when copying an existing Git repository to a local working directory; it copies all files to the local machine. 
+It is used to point to an existing repository and make a clone or copy of the repository ina new directory at another location.
 
 
